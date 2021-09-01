@@ -34,3 +34,19 @@
 .button {
   margin-top: 6.4rem;
 }
+.previewButton {
+  width: 100%;
+  background: var(--heading);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  max-width: 80rem;
+  margin: 8rem auto;
+
+  a {
+    color: var(--background);
+  }
+  &:hover {
+    font-weight: 600;
+  }
+}

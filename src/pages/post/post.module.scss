@@ -9,6 +9,14 @@
     letter-spacing: -0.05rem;
   }
   margin-bottom: 8rem;
+
+  hr {
+    margin-top: 8rem;
+    border: none;
+    height: 0.01rem;
+    background-color: var(--body);
+    filter: brightness(0.3);
+  }
 }
 
 .banner {
@@ -50,4 +58,53 @@
     line-height: 140%;
     margin-bottom: 1.8rem;
   }
+}
+
+.previewButton {
+  width: 100%;
+  background: var(--heading);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  max-width: 80rem;
+  margin: 8rem auto;
+
+  a {
+    color: var(--background);
+  }
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+.lastUpdate {
+  margin-top: 1.6rem;
+  color: var(--body);
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.prevAndNextPost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  max-width: 80rem;
+  margin: 0 auto;
+
+  p {
+    color: var(--body);
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  a {
+    color: var(--highlight);
+  }
+
+  margin-bottom: 8rem;
+}
+
+.prevPost {
+  text-align: left;
 }
